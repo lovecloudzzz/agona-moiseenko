@@ -1,0 +1,13 @@
+.App.dark-switch {
+    background-color: black;
+    color: white;
+}
+
+.App.light-switch {
+    background-color: white;
+    color: black;
+}
+.App{
+    width: auto;
+    height: auto;
+}
