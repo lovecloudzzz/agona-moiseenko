@@ -8,7 +8,7 @@ const InputText = () => {
     };
 
     return (
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: 'auto' }}>
             <input type="text" value={text} onChange={handleChange} />
             <p>{text}</p>
         </div>
